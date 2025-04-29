@@ -24,5 +24,5 @@ jobs:
         run: nproc
       - name: Kernel info
         run: uname -r    
-      - name: Os Version
+      - name: Show Os Version
         run: cat /etc/os-release
